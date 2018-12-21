@@ -8,11 +8,11 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="withVuforiaDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleWithVuforiaDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileWithVuforiaDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="withoutVuforiaDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleWithoutVuforiaDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileWithoutVuforiaDebugSources" />
         <afterSyncTasks>
-          <task>generateWithVuforiaDebugSources</task>
+          <task>generateWithoutVuforiaDebugSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
@@ -23,59 +23,67 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/build/intermediates/classes/withVuforia/debug" />
-    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/withVuforia/debug" />
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/withoutVuforia/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/withoutVuforia/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/withVuforia/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/withVuforia/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/withVuforia/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/withVuforia/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/withVuforia/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/withVuforia/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/withVuforia/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforiaDebug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforiaDebug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforiaDebug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforiaDebug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforiaDebug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforiaDebug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforiaDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/withVuforia/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/withVuforia/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/withVuforia/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/withVuforia/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/withVuforia/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/withVuforia/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/withVuforia/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforiaDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforiaDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforiaDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforiaDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforiaDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforiaDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforiaDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforia/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforia/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforia/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforia/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforia/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforia/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/withVuforia/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforia/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforia/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforia/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforia/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforia/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforia/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testWithVuforia/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithVuforia/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithVuforia/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithVuforia/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithVuforia/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithVuforia/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithVuforia/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithVuforia/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/withoutVuforia/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/withoutVuforia/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/withoutVuforia/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/withoutVuforia/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/withoutVuforia/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/withoutVuforia/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/withoutVuforia/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforiaDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforiaDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforiaDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforiaDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforiaDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforiaDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforiaDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/withoutVuforia/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/withoutVuforia/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/withoutVuforia/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/withoutVuforia/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/withoutVuforia/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/withoutVuforia/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/withoutVuforia/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforiaDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforiaDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforiaDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforiaDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforiaDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforiaDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforiaDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/withoutVuforia/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforiaDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforiaDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforiaDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforiaDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforiaDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforiaDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforiaDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforia/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforia/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforia/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforia/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforia/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforia/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/withoutVuforia/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforia/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforia/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforia/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforia/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforia/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforia/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testWithoutVuforia/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforia/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforia/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforia/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforia/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforia/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforia/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestWithoutVuforia/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
@@ -90,6 +98,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -97,13 +112,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
@@ -111,28 +119,50 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-vector-drawable-23.2.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-annotations:23.2.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-23.2.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:animated-vector-drawable-23.2.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.koushikdutta.ion:ion-2.1.7" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:recyclerview-v7-23.2.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:appcompat-v7-23.2.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v13-23.2.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.6.2@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.koushikdutta.async:androidasync-2.1.7" level="project" />
-    <orderEntry type="module" module-name="vuforia" exported="" />
-    <orderEntry type="module" module-name="rajawali" exported="" />
-    <orderEntry type="module" module-name="vr" exported="" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-23.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shubhamchouhan/Documents/rps/vuforia/libs/Vuforia.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:23.2.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.koushikdutta.ion:ion-2.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7-23.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-23.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.6.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shubhamchouhan/Documents/rps/vr/libs/cardboard.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v4-23.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-23.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/shubhamchouhan/Documents/rps/vr/libs/audio.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v13-23.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.koushikdutta.async:androidasync-2.1.7" level="project" />
+    <orderEntry type="module" module-name="vuforia" />
+    <orderEntry type="module" module-name="rajawali" />
+    <orderEntry type="module" module-name="vr" />
+    <orderEntry type="module" module-name="rajawali" />
   </component>
 </module>

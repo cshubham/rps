@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/shubhamchouhan/Documents/rps/vuforia/libs/Vuforia.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vuforia/libs/Vuforia.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

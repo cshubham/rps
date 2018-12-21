@@ -6,16 +6,19 @@ if (file('local.gradle').exists()) {
 
 buildscript {
     repositories {
+        google()
+        mavenLocal()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.1.4'
         classpath "jp.classmethod.aws:gradle-aws-plugin:0.31"
     }
 }
 
 allprojects {
     repositories {
+        google()
         mavenLocal()
         jcenter()
     }

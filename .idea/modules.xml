@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rajawali/rajawali.iml" filepath="$PROJECT_DIR$/rajawali/rajawali.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rps.iml" filepath="$PROJECT_DIR$/rps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vr/vr.iml" filepath="$PROJECT_DIR$/vr/vr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vuforia/vuforia.iml" filepath="$PROJECT_DIR$/vuforia/vuforia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wear/wear.iml" filepath="$PROJECT_DIR$/wear/wear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wear-example/wear-example.iml" filepath="$PROJECT_DIR$/wear-example/wear-example.iml" />
+    </modules>
+  </component>
+</project>

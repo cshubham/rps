@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/examples" />
+            <option value="$PROJECT_DIR$/rajawali" />
+            <option value="$PROJECT_DIR$/vr" />
+            <option value="$PROJECT_DIR$/vuforia" />
+            <option value="$PROJECT_DIR$/wear" />
+            <option value="$PROJECT_DIR$/wear-example" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

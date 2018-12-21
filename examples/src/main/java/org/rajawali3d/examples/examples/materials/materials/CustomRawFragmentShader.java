@@ -37,6 +37,6 @@ public class CustomRawFragmentShader extends FragmentShader {
 	public void applyParams()
 	{
 		super.applyParams();
-		GLES20.glUniform1f(muTextureInfluenceHandle, .5f);
+		GLES20.glUniform1f(muTextureInfluenceHandle, .1f);
 	}
 }
