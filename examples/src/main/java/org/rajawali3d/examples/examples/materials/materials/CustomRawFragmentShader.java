@@ -7,6 +7,8 @@ import org.rajawali3d.util.RawShaderLoader;
 
 public class CustomRawFragmentShader extends FragmentShader {
 	private int muTextureInfluenceHandle;
+	private int mTexelWidthHandle, mTexelHeightHandle;
+	private float mTexelWidth, mTexelHeight;
 
 	public CustomRawFragmentShader()
 	{
@@ -31,12 +33,21 @@ public class CustomRawFragmentShader extends FragmentShader {
 	{
 		super.setLocations(programHandle);
 		muTextureInfluenceHandle = getUniformLocation(programHandle, "uInfluencemyTex");
+		mTexelWidthHandle = getUniformLocation(programHandle, "texelWidth");
+		mTexelHeightHandle = getUniformLocation(programHandle, "texelHeight");
 	}
 
 	@Override
 	public void applyParams()
 	{
 		super.applyParams();
-		GLES20.glUniform1f(muTextureInfluenceHandle, .1f);
+		GLES20.glUniform1f(muTextureInfluenceHandle, .9f);
+		GLES20.glUniform1f(mTexelWidthHandle, mTexelWidth);
+		GLES20.glUniform1f(mTexelHeightHandle, mTexelHeight);
+	}
+
+	public void setTexelSize(float texelWidth, float texelHeight) {
+		mTexelWidth = texelWidth;
+		mTexelHeight = texelHeight;
 	}
 }
