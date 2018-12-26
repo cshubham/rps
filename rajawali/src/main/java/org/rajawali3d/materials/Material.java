@@ -710,7 +710,7 @@ public class Material {
             mIsDirty = false;
             return;
         }
-git
+
         mVertexShader.setLocations(mProgramHandle);
         mFragmentShader.setLocations(mProgramHandle);
 
