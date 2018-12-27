@@ -45,7 +45,7 @@ public class RawShaderFilesFragment extends AExampleFragment {
 			mMaterial = new Material(new CustomRawVertexShader(), mCustomRawFragShader);
 			mMaterial.enableTime(true);
 			try {
-				Texture texture = new Texture("myTex", R.drawable.happy);
+				Texture texture = new Texture("myTex", R.drawable.xmas);
 
 				BitmapFactory.Options options = new BitmapFactory.Options();
 				options.inJustDecodeBounds = true;

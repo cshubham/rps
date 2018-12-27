@@ -19,13 +19,16 @@
     <list default="true" id="3b49ea30-7de2-4d41-88f7-ce2f1e97d484" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/examples/materials/RawShaderFilesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/examples/materials/RawShaderFilesFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/src/main/res/raw/custom_frag_shader.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/main/res/raw/custom_frag_shader.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rajawali/src/main/java/org/rajawali3d/materials/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/rajawali/src/main/java/org/rajawali3d/materials/Material.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +64,8 @@
       <file leaf-file-name="RawShaderFilesFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/examples/materials/RawShaderFilesFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="312">
+              <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,8 +129,8 @@
       <file leaf-file-name="custom_frag_shader.glsl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/src/main/res/raw/custom_frag_shader.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="308">
+              <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -179,7 +182,12 @@
       <find>draw</find>
       <find>Plane</find>
       <find>mTexelWidthHandle</find>
+      <find>ichannel0</find>
+      <find>texture</find>
     </findStrings>
+    <replaceStrings>
+      <replace>texture2D</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -8944,8 +8952,8 @@
         <option value="$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/data/DataSet.java" />
         <option value="$PROJECT_DIR$/examples/src/main/res/raw/custom_vert_shader.glsl" />
         <option value="$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/examples/materials/materials/CustomRawFragmentShader.java" />
-        <option value="$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/examples/materials/RawShaderFilesFragment.java" />
         <option value="$PROJECT_DIR$/rajawali/src/main/java/org/rajawali3d/materials/Material.java" />
+        <option value="$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/examples/materials/RawShaderFilesFragment.java" />
         <option value="$PROJECT_DIR$/examples/src/main/res/raw/custom_frag_shader.glsl" />
       </list>
     </option>
@@ -9308,7 +9316,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="12" />
@@ -9317,16 +9325,16 @@
       <window_info id="Image Layers" order="7" />
       <window_info id="Build Variants" order="3" sideWeight="0.50240386" side_tool="true" weight="0.24964234" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1416309" side_tool="true" visible="true" weight="0.16727273" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028612" side_tool="true" visible="true" weight="0.42541435" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49785408" weight="0.3743094" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49570817" weight="0.23756906" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49713877" visible="true" weight="0.42541435" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49499285" weight="0.23636363" />
       <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.49785408" weight="0.35911602" />
       <window_info id="Captures" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.17811158" />
-      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.8583691" visible="true" weight="0.16727273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.17811158" />
+      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.8576538" weight="0.16727273" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
@@ -9341,6 +9349,32 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -9480,6 +9514,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -9529,6 +9567,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="183" column="53" selection-start-line="183" selection-start-column="53" selection-end-line="183" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -9714,8 +9755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/main/java/org/rajawali3d/examples/examples/materials/RawShaderFilesFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="312">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -9724,8 +9765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/main/res/raw/custom_frag_shader.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="308">
+          <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
         </state>
       </provider>
     </entry>
